@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style/checkout.css" />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+
+  <body>
+    <div id="order-form">
+      <!--Add your form html element here-->
+      <form onsubmit="placeOrder(event)">
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your full name"
+          required
+        />
+        <br />
+        <input
+          type="text"
+          id="address"
+          placeholder="Enter your address"
+          required
+        />
+        <br />
+        <input
+          type="text"
+          id="mobile"
+          placeholder="Enter your mobile no."
+          required
+        />
+        <br />
+        <input type="submit" value="Place order" />
+      </form>
+    </div>
+  </body>
+</html>
+<script src="scripts/checkout.js"></script>
