@@ -4,6 +4,10 @@
 
 #navbar {
   border: 1px solid #000;
+  background-color: #fff;
+  position: fixed;
+  width: 99%;
+  z-index: 1;
 }
 #navbar > ul {
   list-style: none;
@@ -26,6 +30,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 120px;
 }
 #menu > div {
   width: 300px;
